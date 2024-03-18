@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /*fonts, colours*/
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #555;
+
+}
+
+.about:active {
+    color: green;
+}
+
+.highlight {
+    color: #ff4500;
+    font-family: "Merriweather", sans-serif;
+}
+
+.skills:hover {
+    color: black;
+}
+
+.about-me {
+    padding: 10px;
+}
+
+#projects {
+    background-color: #f0f0f0;
+    padding: 20px;
+
+    #project-heading{
+        padding: 0px 8px 4px;
+        font-family: "work sans", sans-serif;
+
+    }
+}
+
+.project {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: "Work sans", sans-serif;
+    text-decoration: none;
+    color:black;
+
+    a:hover {
+        color: lightcoral;
+    }
+}
+
+img {
+    height: 300px;
+    border-radius: 5px;
+}
+.main-projects {
+    display: flex;
+    font-family: "merriweather",sans-serif;
+
+        #project-card {
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 2px 4px 4px;
+        margin: 4px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+}
+/* challenge 
+
+- add stype to the project section
+- add fonts to our page (link)
+
+*/
